@@ -6,11 +6,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* You can keep the header or modify it as needed */}
-        <h1>News Reader Application</h1>
+        <h1>Rachel's News Reader</h1>
       </header>
       <main>
-        <NewsList /> {/* Render the NewsList component here */}
+        <NewsList />
       </main>
     </div>
   );
