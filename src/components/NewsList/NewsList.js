@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
+import ArticleDetail from '../ArticleDetail/ArticleDetail';
 
 const NewsList = () => {
   const [articles, setArticles] = useState([]);
+  const [selectedArticle, setSelectedArticle] = useState(null);
 
   useEffect(() => {
     const apiKey = 'f1f90d2a47d841739975b3725cda755a';
@@ -17,17 +19,24 @@ const NewsList = () => {
       });
   }, []);
 
+  const handleArticleClick = (article) => {
+    setSelectedArticle(article);
+  };
+
   return (
     <div>
-      {articles.map((article) => (
-        <div key={article.title}>
-          <h3>{article.title}</h3>
-          {article.urlToImage && <img src={article.urlToImage} alt={article.title} />}
-          {article.description && <p>{article.description}</p>}
-          <p>{article.publishedAt}</p>
-          {/* Link to detailed view (implement this later) */}
-        </div>
-      ))}
+      {selectedArticle ? (
+        <ArticleDetail article={selectedArticle} />
+      ) : (
+        articles.map((article) => (
+          <div key={article.title} onClick={() => handleArticleClick(article)}>
+            <h3>{article.title}</h3>
+            {article.urlToImage && <img src={article.urlToImage} alt={article.title} />}
+            {article.description && <p>{article.description}</p>}
+            <p>{article.publishedAt}</p>
+          </div>
+        ))
+      )}
     </div>
   );
 };
