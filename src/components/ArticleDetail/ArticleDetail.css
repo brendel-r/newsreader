@@ -1,0 +1,51 @@
+
+.article-detail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5em;
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+.article-detail-container button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 0.8em 1.5em;
+  border-radius: 0.3em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
+.article-detail-container button:hover {
+  background-color: #0056b3;
+}
+
+.article-detail-container h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.article-detail-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.article-detail-container p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.article-content {
+  max-height: 20em;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .article-detail-container {
+    max-width: 90%;
+  }
+}
