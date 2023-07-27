@@ -60,7 +60,7 @@ const NewsList = () => {
     }
   };
 
-  // Function to format the date to "mmm dd, yyyy" format
+  
   const formatDate = (dateString) => {
     const options = { year: 'numeric', month: 'short', day: 'numeric' };
     return new Date(dateString).toLocaleDateString('en-US', options);
@@ -89,7 +89,7 @@ const NewsList = () => {
                 <h3>{article.title}</h3>
                 {article.urlToImage && <img src={article.urlToImage} alt={article.title} />}
                 {article.description && <p>{article.description}</p>}
-                <p>{formatDate(article.publishedAt)}</p> {/* Format the date */}
+                <p>{formatDate(article.publishedAt)}</p> 
               </div>
             ))}
           </div>
