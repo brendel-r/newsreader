@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# HillTop News Online
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Welcome to HillTop News Online, your go-to news app for staying informed and updated! Developed as a solo project, HillTop News Online was crafted to provide you with the latest news articles and keep monotony at bay.
 
-In the project directory, you can run:
+With HillTop News Online, you have the flexibility to explore news articles. Every time you visit the page, you'll be greeted with a list of the latest news articles, ensuring you stay up-to-date with current events. If you are looking for a particular article, feel free to search for specific keywords to find news on topics that intrigue you. Once you come across a captivating article, simply click on it to dive into the full story and get a comprehensive understanding of the news.
 
-### `npm start`
+Say goodbye to missing out on important news and say hello to HillTop News Online - your gateway to endless information and valuable insights. Get ready to embark on a journey of staying informed and entertained with HillTop News Online!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Contributors
+  - Rachel Brendel [GitHub](https://github.com/brendel-r) / [LinkedIn](https://www.linkedin.com/in/rachel-brendel/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Goals and Objectives
+- A strong understanding of React JS and Front-End best practices
+- Your ability to prioritize for MVP
+- An understanding of basic usability practices and standards
+- A clear hierarchy of information
+- Clean code
 
-### `npm test`
+## Features
+  - View a List of News Articles
+  - Search Option to Find Articles
+  - Click on Article to See Full Article
+  
+## Context 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Building HillTop News Online has been an exciting solo project. Utilizing React, Axios, JavaScript, HTML, and CSS, I have created an exceptional news app for browsing and reading the latest news articles.
 
-### `npm run build`
+React provides dynamic and responsive user interfaces, ensuring a seamless and intuitive experience for users as they explore different news categories and perform searches for specific articles. Axios simplifies the process of making API calls, allowing me to fetch news articles from the NewsAPI efficiently.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+JavaScript adds functionality and interactivity, enabling users to click on articles and view detailed information and content. The app also includes a search feature to filter articles based on specific keywords, enhancing user convenience.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+By combining HTML and CSS, I've crafted visually appealing web pages with a clean and intuitive design. Boredom Busters offers a diverse range of news articles, providing users with a broad selection to stay informed and entertained.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Overall, HillTop News Online is a user-friendly and feature-rich news app built to combat boredom effectively, offering a seamless browsing experience and a wide range of news articles to keep users engaged and informed.
 
-### `npm run eject`
+![HillTop News Online Preview](https://media.giphy.com/media/8WtDrLhRIIEmwk8n9z/giphy.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Set Up
+1. Fork and clone this repo
+1. `cd` into the file
+1. Run `npm install` followed by `npm start`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies
+  - Javascript
+  - HTML
+  - CSS
+  - React
+  - Cypress
+  - Axios
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Sources
+  - [MDN](http://developer.mozilla.org/en-US/)
+  - [W3Schools](https://www.w3schools.com/)
+  - [React Docs](https://react.dev/reference/react)
+  - [Cypress Docs](https://docs.cypress.io/guides/overview/why-cypress)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
